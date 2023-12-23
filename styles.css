@@ -1,0 +1,39 @@
+body {
+    background: #ffffff;
+    overflow: hidden;
+}
+
+#mainpic {
+    height: 35vh;
+    position: relative; left:580px; top:200px
+    
+}
+
+#MainText {
+    color: black;
+    font-size: 10rem;
+    position: relative; right:0px; top:200px
+}
+
+#nav ul{
+    font-size: 20px;
+    margin: 40px;
+    position: relative; bottom:430px; right:60px
+}
+
+#resumeimage {
+    position: relative; left: 200px; top:400px
+        
+}
+
+#resumetext {
+   position: relative;
+    bottom: 1550px;
+    font-size: 140px;
+}
+
+resumenav ul{
+    font-size: 59px;
+    margin: 400px;
+    position: relative; bottom:40px; right:60px
+}
