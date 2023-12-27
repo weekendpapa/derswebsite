@@ -1,31 +1,37 @@
-/*Main page(home page)*/
-body {
-    background: #ffffff;
+/*Main page(base style)*/
+
+.wrapper{
+    display: flex;
+}
+
+#mainpage {
+    background-color: white;
     overflow: hidden;
 }
 
 #mainpic {
     height: 35vh;
-    position: relative; left:580px; top:200px
-    
+    position: relative; left:580px; top:200px;
 }
 
-#MainText {
+#maintext {
     color: black;
     font-size: 10rem;
-    position: relative; right:0px; top:200px
 }
 
 #nav ul {
     font-size: 20px;
     margin: 40px;
-    position: relative; bottom:800px; right:60px
+    position: relative; bottom:400px; right:60px;
 }
 
 /*Resume page*/
+#resumepage {
+    overflow: scroll; 
+}
+
 #resumeimage {
-    position: relative; left: 20px; top:40px
-        
+    position: relative; left: 20px; top:40px;
 }
 
 #resumetext {
@@ -37,5 +43,5 @@ body {
 #resumenav {
     font-size: 590px;
     margin: 400px;
-    position: relative; bottom:400px; right:60px
+    position: relative; bottom:400px; right:60px;
 }
