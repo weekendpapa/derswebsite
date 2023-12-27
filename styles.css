@@ -1,28 +1,31 @@
 /*Main page(base style)*/
 
-.wrapper{
-    display: flex;
-}
 
 #mainpage {
     background-color: white;
     overflow: hidden;
+    min-height: 100vh;
 }
 
-#mainpic {
-    height: 35vh;
-    position: relative; left:580px; top:200px;
+.maincontainer {
+    display: flex;
+    min-height: calc(100vh - 100px)
 }
 
-#maintext {
-    color: black;
-    font-size: 10rem;
+.sidebar {
+    min-width: 300px;
+    background-color: lightblue;
 }
 
-#nav ul {
-    font-size: 20px;
-    margin: 40px;
-    position: relative; bottom:400px; right:60px;
+.content {
+    flex: 1;
+    background-color: blue;
+}
+
+footer {
+    height: 100px;
+    background-color: palevioletred;
+    display: flex;
 }
 
 /*Resume page*/
@@ -44,4 +47,19 @@
     font-size: 590px;
     margin: 400px;
     position: relative; bottom:400px; right:60px;
+}
+
+
+/*media queries*/
+
+@media only screen and (max-width: 992px) {
+
+    .maincontainer {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        height: 150px;
+    }
+
 }

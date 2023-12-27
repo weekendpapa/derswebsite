@@ -1,0 +1,52 @@
+  <body id="mainpage">
+
+    <div class="wrapper">
+
+      <img class="mainpic" src="https://lh3.googleusercontent.com/drive-viewer/AEYmBYRqyTyr0LwRTPS3TXqpElwRkh4BqUahL7PtmCS6SuW9U-bHHCZkrF-x8eTtRHelQH9z0QtwGve_tGLokuSfU6HFWPMEAQ=s1600" />
+          
+        <div class="maintext">
+          <span>an Anders Law website <br/></span>
+        </div>
+
+      <nav role='navigation'>
+        <ul id="nav">
+          <ul><a href="resume.html">Resume</a></ul>
+          <ul><a href="art.html">Art</a></ul>
+          <ul><a href="photos.html">Photos</a></ul>
+          <ul><a href="#page-contact">blah blah</a></ul>
+        </ul>   
+      </nav>
+    </div>
+  
+  </body>     
+</html>
+
+/*Main page(base style)*/
+
+.wrapper{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+#mainpage {
+    background-color: white;
+    overflow: hidden;
+}
+
+.mainpic {
+    height: 35vh;
+    position: relative; left:580px; top:200px;
+}
+
+.maintext {
+    color: black;
+    font-size: 10rem;
+}
+
+#nav ul {
+    font-size: 20px;
+    margin: 40px;
+    position: relative; bottom:400px; right:60px;
+}
