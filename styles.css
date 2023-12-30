@@ -22,12 +22,22 @@
     margin: center;
     flex-direction: column;
     justify-content: center;
+    gap: 20px;
 }
 
 .content {
+    display: flex;
     flex: 1;
     background-color: blue;
+    justify-content: center;
+    align-items: center;
 }
+
+#mainpic {
+    max-width: 30%;
+    height: auto;
+}
+
 
 footer {
     height: 100px;
@@ -71,6 +81,8 @@ footer {
 
     #nav {
         flex-direction: row;
+        align-items: center;
+        padding: 0;
     }
 
 }
