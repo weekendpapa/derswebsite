@@ -13,7 +13,7 @@
 
 .sidebar {
     min-width: 300px;
-    background-color: white;
+    background-color: greenyellow;
 }
 
 #nav {
@@ -28,7 +28,7 @@
 .content {
     display: flex;
     flex: 1;
-    background-color: white;
+    background-color: green;
     justify-content: center;
     align-items: center;
 }
@@ -42,11 +42,8 @@
 footer {
     display: flex;
     height: 100px;
-    background-color: white;
+    background-color: blue;
     align-items:end;
-}
-
-#footy {
     font-size: 6vw;
 }
 
@@ -56,19 +53,29 @@ footer {
 }
 
 #resumeimage {
-    position: relative; left: 20px; top:40px;
+    max-width: 47%;
+    height: auto;
 }
 
-#resumetext {
-   position: relative;
-    bottom: 1550px;
-    font-size: 140px;
+#resumeheader {
+   display: flex;
+   font-size: 6vw;
+   background-color: pink;
+   justify-content: center;
+}
+
+.wrapper2 {
+    position: sticky;
+    top: 0px;
 }
 
 #resumenav {
-    font-size: 590px;
-    margin: 400px;
-    position: relative; bottom:400px; right:60px;
+    font-size: 20px;
+    display: flex;
+    margin: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
 }
 
 
@@ -88,6 +95,16 @@ footer {
         flex-direction: row;
         align-items: center;
         padding: 0;
+    }
+
+    #resumenav {
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+    }
+
+    #resumeimage {
+        min-width: 90%;
     }
 
 }

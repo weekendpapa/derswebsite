@@ -55,3 +55,39 @@
 
 
 <span class="innertext">sidebar</span>
+
+<!DOCTYPE html>
+<html lang="en">
+    
+  <!-- Metadata for the page -->
+    <head>
+        <title>Anders Law</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+  <!-- Visible content for the page -->
+  <body id="resumepage">
+    <div class="maincontainer">
+    
+      <aside class="sidebar">
+        <nav role='navigation'>
+          <ul id="nav">
+            <ul><a href="resume.html">Resume</a></ul>
+            <ul><a href="art.html">Art</a></ul>
+            <ul><a href="photos.html">Photos</a></ul>
+            <ul><a href="#page-contact">blah blah</a></ul>
+          </ul>   
+        </nav>
+      </aside>
+
+        <main class="content">
+          <img id="resumeimage" src="https://lh3.googleusercontent.com/drive-viewer/AEYmBYS3mOYGWSI90DmqvDfNAMhIWul8ZRB8f6pEiVXdg3dNvDE30CP-Ym3BF5Hoby-7VEPEYW2SJYGgAPhIy7R1wivUl85iXQ=s1600" /> 
+         </main>
+    </div>
+    
+  
+  </body>     
+</html>
