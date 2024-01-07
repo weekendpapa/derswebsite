@@ -1,7 +1,7 @@
 /*Main page(base style)*/
 
 #mainpage {
-    background-color: white;
+    background-color: blue;
     overflow: hidden;
     min-height: 100vh;
 }
@@ -13,7 +13,7 @@
 
 .sidebar {
     min-width: 300px;
-    background-color: greenyellow;
+    background-color: darkblue;
 }
 
 #nav {
@@ -28,9 +28,10 @@
 .content {
     display: flex;
     flex: 1;
-    background-color: green;
+    background-color: darkcyan;
     justify-content: center;
     align-items: center;
+    gap: 150px;
 }
 
 #mainpic {
@@ -42,7 +43,7 @@
 footer {
     display: flex;
     height: 100px;
-    background-color: blue;
+    background-color: lightblue;
     align-items:end;
     font-size: 6vw;
 }
@@ -60,7 +61,7 @@ footer {
 #resumeheader {
    display: flex;
    font-size: 6vw;
-   background-color: pink;
+   background-color: lightseagreen;
    justify-content: center;
 }
 
@@ -76,6 +77,9 @@ footer {
     flex-direction: column;
     justify-content: center;
     gap: 20px;
+}
+
+#downloadbutton {
 }
 
 
