@@ -79,7 +79,10 @@ footer {
     gap: 20px;
 }
 
-#downloadbutton {
+/*Contact Page*/
+
+.contactinfo {
+    
 }
 
 
@@ -109,6 +112,11 @@ footer {
 
     #resumeimage {
         min-width: 90%;
+    }
+
+    .content {
+        flex-direction: column;
+        gap: 50px;
     }
 
 }
