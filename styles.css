@@ -1,7 +1,7 @@
 /*Main page(base style)*/
 
 #mainpage {
-    background-color: blue;
+    background-color: lightpink;
     overflow: hidden;
     min-height: 100vh;
 }
@@ -13,7 +13,7 @@
 
 .sidebar {
     min-width: 300px;
-    background-color: darkblue;
+    background-color: purple;
 }
 
 #nav {
@@ -28,10 +28,10 @@
 .content {
     display: flex;
     flex: 1;
-    background-color: darkcyan;
+    background-color: pink;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     gap: 150px;
 }
 
@@ -44,10 +44,23 @@
 footer {
     display: flex;
     height: 100px;
-    background-color: lightblue;
+    background-color: rosybrown;
     align-items:end;
     font-size: 6vw;
 }
+
+/* Globally */
+a { 
+    color:black;
+    text-decoration: none;
+}
+
+/* Each state */
+
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:black; }
+a:focus { text-decoration: none; color:black; }
+a:hover, a:active { text-decoration: none; color:black }
 
 /*Resume page*/
 #resumepage {
@@ -62,7 +75,7 @@ footer {
 #resumeheader {
    display: flex;
    font-size: 6vw;
-   background-color: lightseagreen;
+   background-color: darkmagenta;
    justify-content: center;
 }
 
@@ -80,7 +93,24 @@ footer {
     gap: 20px;
 }
 
+#downloadbutton {
+    text-decoration: underline;
+}
+#downloadbutton:hover {
+    text-decoration: none;
+}
+
 /*Contact Page*/
+
+.content2 {
+    display: flex;
+    flex: 1;
+    background-color: pink;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 150px;
+}
 
 .logos {
     font-size: 100px;
@@ -90,6 +120,7 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 30px
+    
 }
 
 
