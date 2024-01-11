@@ -120,9 +120,24 @@ a:hover, a:active { text-decoration: none; color:black }
     display: flex;
     flex-direction: row;
     gap: 30px
-    
 }
 
+/*Kaledo Page*/
+
+.content3 {
+    display: flex;
+    flex: 1;
+    background-color: pink;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.kaledo {
+    max-width: 30%;
+    height: auto;
+}
 
 /*media queries*/
 
