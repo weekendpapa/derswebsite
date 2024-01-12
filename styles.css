@@ -1,7 +1,7 @@
 /*Main page(base style)*/
 
 #mainpage {
-    background-color: lightpink;
+    background-color: yellow;
     overflow: hidden;
     min-height: 100vh;
 }
@@ -28,7 +28,7 @@
 .content {
     display: flex;
     flex: 1;
-    background-color: pink;
+    background-color: darkorchid;
     justify-content: center;
     align-items: center;
     flex-direction: row;
@@ -44,7 +44,7 @@
 footer {
     display: flex;
     height: 100px;
-    background-color: rosybrown;
+    background-color: gold;
     align-items:end;
     font-size: 6vw;
 }
@@ -75,7 +75,7 @@ a:hover, a:active { text-decoration: none; color:black }
 #resumeheader {
    display: flex;
    font-size: 6vw;
-   background-color: darkmagenta;
+   background-color: yellowgreen;
    justify-content: center;
 }
 
@@ -105,7 +105,7 @@ a:hover, a:active { text-decoration: none; color:black }
 .content2 {
     display: flex;
     flex: 1;
-    background-color: pink;
+    background-color: darkorchid;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -127,16 +127,28 @@ a:hover, a:active { text-decoration: none; color:black }
 .content3 {
     display: flex;
     flex: 1;
-    background-color: pink;
-    justify-content: center;
-    align-items: center;
+    background-color: goldenrod;
+    justify-content: flex-start;
+    align-items: left;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.kaledoset {
+    display: flex;
     flex-direction: row;
-    gap: 150px;
+    justify-content: center;
+    gap: 30px
 }
 
 .kaledo {
     max-width: 30%;
     height: auto;
+}
+
+.ddtext {
+    padding: 15px 5px 0px 25px;
+    font-size: 40px;
 }
 
 /*media queries*/
