@@ -23,7 +23,7 @@
 }
 
 #nav {
-    font-size: 35px;
+    font-size: 2.5vw;
     display: flex;
     margin: center;
     flex-direction: column;
@@ -72,16 +72,32 @@ a:hover { text-decoration: none; color:black; }
 a:focus { text-decoration: none; color:black; }
 a:hover, a:active { text-decoration: none; color:black }
 
-#resumetag:hover {
-    color: rgb(202, 255, 244);
+.resumetag:hover {
+    color: rgb(217, 255, 247);
 }
 
-#txmitag:hover {
-    color: rgb(255, 227, 233);
+.txmitag:hover {
+    color: rgb(255, 238, 241);
 }
 
-#kaledotag:hover {
-    color: rgb(rgb(255, 255, 182));
+.kaledotag:hover {
+    color: rgb(255, 255, 208);
+}
+
+.contacttag:hover {
+    color:rgb(234, 255, 202);
+}
+
+#linkedcolor:hover {
+    color:rgb(50, 50, 255);
+}
+
+#gitcolor:hover {
+    color: rgb(234, 203, 208);
+}
+
+#youcolor:hover {
+    color: red;
 }
 
 /*Resume page*/
