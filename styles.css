@@ -1,3 +1,9 @@
+/*Fonts*/
+@font-face {
+    font-family: 'andersfont';
+    src: url(Anderslaw55-Regular.otf);
+}
+
 /*Main page(base style)*/
 
 #mainpage {
@@ -17,12 +23,13 @@
 }
 
 #nav {
-    font-size: 20px;
+    font-size: 30px;
     display: flex;
     margin: center;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
+    font-family: "andersfont";
 }
 
 .content {
@@ -90,12 +97,13 @@ a:hover, a:active { text-decoration: none; color:black }
 }
 
 #resumenav {
-    font-size: 20px;
+    font-size: 30px;
     display: flex;
     margin: center;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
+    font-family: "andersfont";
 }
 
 #downloadbutton {
