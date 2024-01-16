@@ -23,7 +23,7 @@
 }
 
 #nav {
-    font-size: 30px;
+    font-size: 35px;
     display: flex;
     margin: center;
     flex-direction: column;
@@ -61,18 +61,28 @@ footer {
     height: auto;
 }
 
-/* Globally */
+/* Font Decoration */
 a { 
     color:black;
     text-decoration: none;
 }
 
-/* Each state */
-
 a:visited { text-decoration: none; color:black; }
 a:hover { text-decoration: none; color:black; }
 a:focus { text-decoration: none; color:black; }
 a:hover, a:active { text-decoration: none; color:black }
+
+#resumetag:hover {
+    color: rgb(202, 255, 244);
+}
+
+#txmitag:hover {
+    color: rgb(255, 227, 233);
+}
+
+#kaledotag:hover {
+    color: rgb(rgb(255, 255, 182));
+}
 
 /*Resume page*/
 #resumepage {
@@ -97,7 +107,7 @@ a:hover, a:active { text-decoration: none; color:black }
 }
 
 #resumenav {
-    font-size: 30px;
+    font-size: 35px;
     display: flex;
     margin: center;
     flex-direction: column;
