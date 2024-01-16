@@ -1,7 +1,7 @@
 /*Fonts*/
 @font-face {
     font-family: 'andersfont';
-    src: url(Anderslaw55-Regular.otf);
+    src: url(Andersfont.otf);
 }
 
 /*Main page(base style)*/
@@ -29,7 +29,6 @@
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    font-family: "andersfont";
 }
 
 .content {
@@ -89,7 +88,7 @@ a:hover, a:active { text-decoration: none; color:black }
 }
 
 #linkedcolor:hover {
-    color:rgb(50, 50, 255);
+    color:rgb(57, 57, 217);
 }
 
 #gitcolor:hover {
@@ -129,7 +128,6 @@ a:hover, a:active { text-decoration: none; color:black }
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    font-family: "andersfont";
 }
 
 #downloadbutton {
@@ -159,6 +157,11 @@ a:hover, a:active { text-decoration: none; color:black }
     display: flex;
     flex-direction: row;
     gap: 30px
+}
+
+#contactinfo {
+    font-family: "andersfont";
+    font-size: 25px;
 }
 
 /*Kaledo Page*/
