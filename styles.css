@@ -162,6 +162,7 @@ a:hover, a:active { text-decoration: none; color:black }
 #contactinfo {
     font-family: "andersfont";
     font-size: 28px;
+    color: rgb(30, 30, 30);
 }
 
 /*Kaledo Page*/
@@ -202,7 +203,8 @@ a:hover, a:active { text-decoration: none; color:black }
 
 .txmitext {
     padding: 15px 5px 0px 25px;
-    font-size: 20px;
+    font-size: 30px;
+    font-family: cursive;
 }
 
 .garmentphotos {
