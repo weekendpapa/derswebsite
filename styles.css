@@ -87,6 +87,10 @@ a:hover, a:active { text-decoration: none; color:black }
     color:rgb(234, 255, 202);
 }
 
+.fdsatag:hover {
+    color: rgb(84, 84, 158);
+}
+
 #linkedcolor:hover {
     color:rgb(57, 57, 217);
 }
