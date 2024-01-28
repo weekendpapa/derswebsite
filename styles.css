@@ -1,22 +1,22 @@
 /*Fonts*/
 @font-face {
     font-family: 'andersfont';
-    src: url(Andersfont.otf);
+    src: url(fonts/Andersfont.otf);
 }
 
 @font-face {
     font-family: 'spike';
-    src: url(Spikeless.ttf);
+    src: url(fonts/Spikeless.ttf);
 }
 
 @font-face {
     font-family: 'tangerine';
-    src: url(tangerine.ttf);
+    src: url(fonts/tangerine.ttf);
 }
 
 @font-face {
     font-family: 'tangerineb';
-    src: url(tangerineB.ttf);
+    src: url(fonts/tangerineB.ttf);
 }
 
 /*Main page(base style)*/
