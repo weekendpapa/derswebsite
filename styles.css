@@ -22,14 +22,15 @@
 /*Main page(base style)*/
 
 #mainpage {
-    background-color: black;
-    overflow: hidden;
+
     min-height: 100vh;
 }
 
 .maincontainer {
     display: flex;
-    min-height: calc(100vh - 100px)
+    min-height: calc(100vh - 100px);
+    border-style: solid;
+    border-color: red;
 }
 
 .sidebar {

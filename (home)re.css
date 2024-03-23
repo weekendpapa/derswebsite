@@ -1,0 +1,69 @@
+/*body style*/
+body {
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+}
+
+.mainbody {
+    background-color: yellow;
+}
+
+/*This flex should cover the screen*/
+.papaflex{
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    height: 99vh;
+}
+
+/*for everything in the aside coloum*/
+.homeaside {
+    border-style: solid;
+    border-color: red;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.textcontainer { /*this is just the box for the two text boxes, aside and name*/
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: green;
+    margin-top: 30px;
+    color: red;
+}
+
+.asidetext {
+    font-family: "Lilita One";
+    font-size: 30px;
+}
+
+.nametext {
+    font-size: 140px;
+}
+
+/*for everything in the main coloum*/
+.homemain {
+    border-style: solid;
+    border-color: red;
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+}
+
+.mainimg {
+    border-style: solid;
+    border-color: green;
+    height: 100%;
+}
+
+.navbutton {
+    border-style: solid;
+    border-color: blue;
+    height: 40px;
+}
+
+
