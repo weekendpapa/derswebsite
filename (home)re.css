@@ -60,10 +60,23 @@ body {
     height: 100%;
 }
 
+.buttonholder {
+    display: flex;
+    border-style: solid;
+    border-color: purple;
+    justify-content: end;
+    height: 70px;
+}
+
 .navbutton {
     border-style: solid;
     border-color: blue;
     height: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 15px;
 }
 
 
