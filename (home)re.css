@@ -1,3 +1,5 @@
+/*just font stuff*/
+
 /*body style*/
 body {
     margin-top: 0%;
@@ -58,7 +60,7 @@ body {
 
 .navbutton {
     border-style: solid;
-    border-color: blue;
+    border-color: red;
     height: 40px;
     margin-top: 10px;
     margin-left: 10px;
@@ -66,6 +68,42 @@ body {
     width: 40px;
     border-radius: 15px;
 }
+
+/*this is for the navbar*/
+
+.sidebar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 0;
+    height: 300px;
+    width: 700px;
+    border-style: solid;
+    border-color: aqua;
+    display: none;
+    background-color: white;
+}
+
+.sidebar li{ /*not entirerly sure why i need this...but it doesnt' work without it*/
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.navtext {
+    color: red;
+    text-decoration: none;
+    font-family: "Lilita One";
+}
+
+.navclose {
+    fill: red;
+    position: fixed;
+    bottom: 260px;
+    left: 700px;
+}
+
+.navtext:hover { color:lightskyblue; }
 
 /*for everything in the main coloum*/
 .homemain {
@@ -83,9 +121,5 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.navbar {
-    
 }
 

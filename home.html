@@ -11,9 +11,12 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+<!--java stuff-->
+<script type="text/javascript" src="java.js"></script>
     </head>
 
   <!-- Visible content for the page -->
+  <!--main page text below-->
   <body class="mainbody">
     <div class="papaflex">
         <aside class="homeaside">
@@ -23,22 +26,26 @@
                 <span class="asidetext">website</span>
             </div>
             <div class="buttonholder">
-                <button class="navbutton">
+                <button class="navbutton" onclick=showsidebar()>
                     I
                 </button>
-                <nav>
-                    <ul class="sidebar">
-                        <li><a href="#">codingtwogo</a></li>
-                        <li><a href="#">codingtwogo</a></li>
-                        <li><a href="#">codingtwogo</a></li>
-                        <li><a href="#">codingtwogo</a></li>
-                        <li><a href="#">codingtwogo</a></li>
-                        <li><a href="#">codingtwogo</a></li>
-                    </ul>
-                </nav>
             </div>
         </aside>
-
+    <!-- navbar stuff-->
+    
+        <nav>
+            <ul class="sidebar">
+                <li><a class="navtext" href="#">codingtwogo</a></li>
+                <li><a class="navtext" href="#">codingtwogo</a></li>
+                <li><a class="navtext" href="#">codingtwogo</a></li>
+                <li><a class="navtext" href="#">codingtwogo</a></li>
+                <li><a class="navtext" href="#">codingtwogo</a></li>
+                <li onclick=hidesidebar()><a class="navclose" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            </ul>
+        </nav>
+    
+        
+    <!-- stuff for the side coloum with the picture-->
         <main class="homemain">
             <div class="imgholster">
                     hello
