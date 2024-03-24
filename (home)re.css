@@ -8,6 +8,7 @@ body {
 
 .mainbody {
     background-color: yellow;
+    overflow: hidden;
 }
 
 /*This flex should cover the screen*/
@@ -25,6 +26,7 @@ body {
     display: flex;
     flex: 1;
     flex-direction: column;
+    justify-content:space-between;
 }
 
 .textcontainer { /*this is just the box for the two text boxes, aside and name*/
@@ -45,6 +47,26 @@ body {
     font-size: 140px;
 }
 
+/*this is for the button*/
+.buttonholder {
+    display: flex;
+    border-style: solid;
+    border-color: purple;
+    justify-content: start;
+    height: 70px;
+}
+
+.navbutton {
+    border-style: solid;
+    border-color: blue;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 15px;
+}
+
 /*for everything in the main coloum*/
 .homemain {
     border-style: solid;
@@ -54,29 +76,16 @@ body {
     flex-direction: column;
 }
 
-.mainimg {
+.imgholster {
     border-style: solid;
     border-color: green;
     height: 100%;
-}
-
-.buttonholder {
     display: flex;
-    border-style: solid;
-    border-color: purple;
-    justify-content: end;
-    height: 70px;
+    justify-content: center;
+    align-items: center;
 }
 
-.navbutton {
-    border-style: solid;
-    border-color: blue;
-    height: 40px;
-    margin-top: 10px;
-    margin-right: 10px;
-    height: 40px;
-    width: 40px;
-    border-radius: 15px;
+.navbar {
+    
 }
-
 
