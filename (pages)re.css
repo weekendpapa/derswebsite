@@ -55,3 +55,34 @@ body {
     color: red;
     font-size: 30px;
 }
+/*this is for the navbar*/
+.sidebar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 7px;
+    margin-left: 7px;
+    height: 300px;
+    width: 700px;
+    border-style: solid;
+    border-color: aqua;
+    display: none;
+    background-color: white;
+}
+.sidebar li{ /*not entirerly sure why i need this...but it doesnt' work without it*/
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+.navtext {
+    color: red;
+    text-decoration: none;
+    font-family: "Lilita One";
+}
+.navclose {
+    fill: red;
+    position: fixed;
+    bottom: 260px;
+    left: 700px;
+}
+.navtext:hover { color:lightskyblue; }
