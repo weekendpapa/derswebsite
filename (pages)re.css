@@ -24,9 +24,11 @@ body {
     border-color: red;
     display: flex;
     width: 600px;
-    flex-direction: column;
     justify-content:center;
     align-items: center;
+}
+.resumeimage {
+    height: 650px;
 }
 /*box on the right*/
 .bigboxright {
