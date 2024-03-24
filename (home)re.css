@@ -7,12 +7,10 @@ body {
     margin-right: 0%;
     margin-bottom: 0%;
 }
-
 .mainbody {
     background-color: yellow;
     overflow: hidden;
 }
-
 /*This flex should cover the screen*/
 .papaflex{
     display: flex;
@@ -20,7 +18,6 @@ body {
     border-style: solid;
     height: 99vh;
 }
-
 /*for everything in the aside coloum*/
 .homeaside {
     border-style: solid;
@@ -30,25 +27,22 @@ body {
     flex-direction: column;
     justify-content:space-between;
 }
-
 .textcontainer { /*this is just the box for the two text boxes, aside and name*/
     display: flex;
     flex-direction: column;
     border-style: solid;
     border-color: green;
     margin-top: 30px;
+    margin-left: 10px;
     color: red;
 }
-
 .asidetext {
     font-family: "Lilita One";
     font-size: 30px;
 }
-
 .nametext {
     font-size: 140px;
 }
-
 /*this is for the button*/
 .buttonholder {
     display: flex;
@@ -57,7 +51,6 @@ body {
     justify-content: start;
     height: 70px;
 }
-
 .navbutton {
     border-style: solid;
     border-color: red;
@@ -68,14 +61,13 @@ body {
     width: 40px;
     border-radius: 15px;
 }
-
 /*this is for the navbar*/
-
 .sidebar {
     position: fixed;
     bottom: 0;
     left: 0;
-    margin-bottom: 0;
+    margin-bottom: 7px;
+    margin-left: 7px;
     height: 300px;
     width: 700px;
     border-style: solid;
@@ -83,28 +75,23 @@ body {
     display: none;
     background-color: white;
 }
-
 .sidebar li{ /*not entirerly sure why i need this...but it doesnt' work without it*/
     display: inline-block;
     font-size: 20px;
     padding: 20px;
 }
-
 .navtext {
     color: red;
     text-decoration: none;
     font-family: "Lilita One";
 }
-
 .navclose {
     fill: red;
     position: fixed;
     bottom: 260px;
     left: 700px;
 }
-
 .navtext:hover { color:lightskyblue; }
-
 /*for everything in the main coloum*/
 .homemain {
     border-style: solid;
@@ -113,7 +100,6 @@ body {
     width: 600px;
     flex-direction: column;
 }
-
 .imgholster {
     border-style: solid;
     border-color: green;

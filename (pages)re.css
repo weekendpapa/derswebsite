@@ -1,0 +1,55 @@
+/*just font stuff*/
+
+/*body style*/
+body {
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+}
+.bodytag {
+    background-color: yellow;
+    overflow: hidden;
+}
+/*This flex should cover the screen*/
+.biggestflex {
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    height: 99vh;
+}
+/*Box on the left...duh*/
+.bigboxleft {
+    border-style: solid;
+    border-color: red;
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+/*box on the right*/
+.bigboxright {
+    border-style: solid;
+    border-color: red;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.toptextbox {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: green;
+    color: red;
+    font-size: 150px;
+}
+.bottomtextbox {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: green;
+    color: red;
+    font-size: 30px;
+}
