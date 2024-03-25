@@ -92,7 +92,7 @@ body {
 .navclose {
     fill: red;
     position: fixed;
-    bottom: 265px;
-    right: 30px;
+    bottom: 35px;
+    right: 27px;
 }
 .navtext:hover { color:lightskyblue; }
