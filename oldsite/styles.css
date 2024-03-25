@@ -200,7 +200,7 @@ a:hover, a:active { text-decoration: none; color:white }
 .content3 {
     display: flex;
     flex: 1;
-    background-color: black;
+    background-color: pink;
     justify-content: flex-start;
     align-items: left;
     flex-direction: column;

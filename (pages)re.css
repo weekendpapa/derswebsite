@@ -9,26 +9,30 @@ body {
 }
 .bodytag {
     background-color: yellow;
-    overflow: hidden;
+    overflow: scroll;
 }
 /*This flex should cover the screen*/
 .biggestflex {
     display: flex;
     flex-direction: row;
     border-style: solid;
-    height: 99vh;
+    
 }
 /*Box on the left...duh*/
 .bigboxleft {
     border-style: solid;
     border-color: red;
     display: flex;
-    width: 600px;
+    flex-direction: row;
+    width: 800px;
     justify-content:center;
     align-items: center;
 }
-.resumeimage {
+.resumeimage { /*This one is just the resume page*/
     height: 650px;
+}
+.multimage { /*This is all pages with mulitple images*/
+    height: 400px;
 }
 /*box on the right*/
 .bigboxright {
@@ -36,6 +40,7 @@ body {
     border-color: red;
     display: flex;
     flex: 1;
+    height: 99vh;
     flex-direction: column;
     justify-content: space-between;
 }
