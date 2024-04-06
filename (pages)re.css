@@ -22,7 +22,7 @@ body {
     border-style: solid;
     border-color: purple;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 880px;
     justify-content: center;
     align-items: center;
@@ -37,13 +37,20 @@ body {
 }
 .multimage { /*This is all pages with mulitple images*/
     height: 300px;
+    max-width: 700px;
+}
+.rowbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px
 }
 /*box on the right*/
 .bigboxright {
     border-style: solid;
     border-color: red;
     display: flex;
-    flex: 1;
+    width: 600px;
     height: 99vh;
     flex-direction: column;
     justify-content: space-between;
