@@ -68,6 +68,15 @@ body {
     font-size: 150px;
     font-family: "Lilita One";
 }
+.bottomtextbox {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: blue;
+    color: red;
+    font-size: 50px;
+    font-family: "Lilita One";
+}
 /*this is for the button*/
 .buttonholder {
     display: flex;
@@ -122,3 +131,13 @@ body {
     right: 27px;
 }
 .navtext:hover { color:lightskyblue; }
+
+/*logos on contact pages*/
+.logos {
+    font-size: 100px;
+}
+.logogroup {
+    display: flex;
+    flex-direction: row;
+    gap: 30px
+}
