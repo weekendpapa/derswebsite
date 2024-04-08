@@ -32,18 +32,22 @@ body {
     margin-top: 20px;
     margin-bottom: 10px;
 }
-.resumeimage { /*This one is just the resume page*/
-    height: 650px;
-}
-.multimage { /*This is all pages with mulitple images*/
-    height: 300px;
-    max-width: 700px;
-}
-.rowbox {
+.rowbox { /*This is for the row of images inside the left obx*/
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 30px
+}
+.resumeimage { /*This one is just the resume page*/
+    height: 650px;
+}
+.multimage { /*This is all pages with mulitple images that use rows and rowbox*/
+    max-width: 30%;
+    height: auto;
+}
+.multimagetxmi { /*This is all pages that use only column layout, no rowbox*/
+    max-width: 70%;
+    height: auto;
 }
 /*box on the right*/
 .bigboxright {
