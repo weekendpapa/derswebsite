@@ -73,7 +73,6 @@ body {
     flex-direction: column;
     border-style: solid;
     border-color: blue;
-    color: red;
     font-size: 50px;
     font-family: "Lilita One";
 }
@@ -120,7 +119,6 @@ body {
     padding: 20px;
 }
 .navtext {
-    color: red;
     text-decoration: none;
     font-family: "Lilita One";
 }
@@ -140,4 +138,13 @@ body {
     display: flex;
     flex-direction: row;
     gap: 30px
+}
+/* Font Decoration */
+.bottomtextbox a {
+    color: red;
+    text-decoration: none;
+}
+.navtext {
+    color: red;
+    text-decoration: none;
 }
