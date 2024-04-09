@@ -64,6 +64,7 @@ body {
     height: 99vh;
     flex-direction: column;
     justify-content: space-between;
+    margin-right: 10px;
 }
 .toptextbox {
     display: flex;
@@ -79,6 +80,7 @@ body {
     flex-direction: column;
     border-style: solid;
     border-color: blue;
+    color: pink;
     font-size: 50px;
     font-family: "Lilita One";
 }
