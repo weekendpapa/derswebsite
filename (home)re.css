@@ -54,12 +54,17 @@ body {
 .navbutton {
     border-style: solid;
     border-color: red;
+    background-color: red;
     height: 40px;
     margin-top: 10px;
     margin-left: 10px;
     height: 40px;
     width: 40px;
     border-radius: 15px;
+    cursor: grab;
+}
+svg {
+    fill: green;
 }
 /*this is for the navbar*/
 .sidebar {
@@ -91,7 +96,6 @@ body {
     bottom: 35px;
     left: 27px;
 }
-.navtext:hover { color:lightskyblue; }
 /*for everything in the main coloum*/
 .homemain {
     border-style: solid;
@@ -107,5 +111,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+/*this is for the button decoration*/
+.navtext {
+    color: red;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.navtext:hover { color:lightskyblue; 
 }
 

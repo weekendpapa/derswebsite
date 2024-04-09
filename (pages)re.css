@@ -1,4 +1,3 @@
-/*just font stuff*/
 
 /*body style*/
 body {
@@ -49,6 +48,13 @@ body {
     max-width: 70%;
     height: auto;
 }
+.kaledotext { /*This is for the text on the kaleido page*/
+    font-size: 30px;
+    font-family: "Lilita One";
+    color: red;
+    align-self: flex-start;
+    margin-left: 20px;
+}
 /*box on the right*/
 .bigboxright {
     border-style: solid;
@@ -91,12 +97,17 @@ body {
 .navbutton {
     border-style: solid;
     border-color: red;
+    background-color: red;
     height: 40px;
     margin-top: 10px;
     margin-right: 10px;
     height: 40px;
     width: 40px;
     border-radius: 15px;
+    cursor: grab;
+}
+svg {
+    fill: green;
 }
 /*this is for the navbar*/
 .sidebar {
@@ -128,23 +139,41 @@ body {
     bottom: 35px;
     right: 27px;
 }
-.navtext:hover { color:lightskyblue; }
-
 /*logos on contact pages*/
 .logos {
     font-size: 100px;
+    color: red;
+    transition: color 0.5s;
+}
+.logos:hover {
+    color: lightskyblue;
 }
 .logogroup {
     display: flex;
     flex-direction: row;
     gap: 30px
 }
+/*this is for the contact page text*/
+.contactinfo {
+    font-size: 20px;
+    font-family: "Lilita One";
+    color: red;
+    text-align: center;
+}
 /* Font Decoration */
 .bottomtextbox a {
     color: red;
     text-decoration: none;
+    transition: color 0.5s;
+    cursor: help;
+}
+.bottomtextbox a:hover {
+    color: lightskyblue;
 }
 .navtext {
     color: red;
     text-decoration: none;
+    transition: color 0.5s;
+}
+.navtext:hover { color:lightskyblue; 
 }
