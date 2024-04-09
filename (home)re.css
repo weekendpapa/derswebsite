@@ -75,10 +75,8 @@ svg {
     margin-left: 7px;
     height: 300px;
     width: 690px;
-    border-style: solid;
-    border-color: aqua;
     display: none;
-    background-color: white;
+    background-color: tomato;
 }
 .sidebar li{ /*not entirerly sure why i need this...but it doesnt' work without it*/
     display: inline-block;
