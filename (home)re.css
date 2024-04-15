@@ -101,6 +101,10 @@ svg {
     justify-content: center;
     align-items: center;
 }
+.titlecard {
+    height: auto;
+    width: 90%;    
+}
 /*this is for the button decoration*/
 .navtext {
     text-decoration: none;
