@@ -9,6 +9,9 @@ body {
 .bodytag {
     background-color: rgb(255, 255, 69);
     background-image: url(https://storage.googleapis.com/derswebsitebucket/Backgrounds/websitebackgroundred%3Ayellow%2Bmore.png);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow: auto;
 }
 /*This flex should cover the screen*/
@@ -69,6 +72,7 @@ body {
     font-size: 150px;
     font-family: "Lilita One";
     align-items: flex-end;
+    text-shadow: 4px 4px black;
 }
 .bottomtextbox {
     display: flex;

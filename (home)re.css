@@ -34,9 +34,11 @@ body {
 .asidetext {
     font-family: "Lilita One";
     font-size: 30px;
+    text-shadow: -2px 2px black;
 }
 .nametext {
     font-size: 140px;
+    text-shadow: -4px 4px black;
 }
 /*this is for the button*/
 .buttonholder {
