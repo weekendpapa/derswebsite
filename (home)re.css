@@ -31,7 +31,7 @@ body {
     margin-left: 10px;
     color: rgb(255, 44, 44);
     text-align: end;
-    margin-top: 185px;
+    margin-top: 240px;
 }
 .asidetext {
     font-family: "Lilita One";
@@ -117,4 +117,24 @@ svg {
 }
 .navtext:hover { color:lightblue; 
 }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .sidebar {
+        width: 400px;
+    }
+    .papaflex {
+        flex-direction: column-reverse;
+    }
+    .nametext {
+        font-size: 100px;
+    }
+    .textcontainer {
+        text-align: center;
+        margin-top: 0px;
+    }
+    .imgholster {
+        margin-bottom: 0px;
+        justify-content: center;
+    }
+  }
 
