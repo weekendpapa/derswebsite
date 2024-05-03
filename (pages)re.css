@@ -72,7 +72,7 @@ body {
     font-size: 150px;
     font-family: "Lilita One";
     align-items: flex-end;
-    text-shadow: 4px 4px black;
+    text-shadow: 4px 4px purple;
 }
 .bottomtextbox {
     display: flex;
@@ -159,7 +159,7 @@ svg {
 }
 /* Font Decoration */
 .bottomtextbox a {
-    color: rgb(255, 44, 44);
+    color: black;
     text-decoration: none;
     transition: color 0.5s;
     cursor: help;
