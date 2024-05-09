@@ -9,6 +9,9 @@ body {
 .mainbody {
     background-color: rgb(255, 255, 69);
     background-image: url(https://storage.googleapis.com/derswebsitebucket/Backgrounds/websitebackgroundred%3Ayellow%2Bmore.png);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow: hidden;
 }
 /*This flex should cover the screen*/
@@ -16,7 +19,6 @@ body {
     display: flex;
     flex-direction: row;
     height: 99vh;
-    border-style: solid;
 }
 /*for everything in the aside coloum*/
 .homeaside {
@@ -28,11 +30,10 @@ body {
 .textcontainer { /*this is just the box for the two text boxes, aside and name*/
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
     margin-left: 10px;
     color: rgb(255, 44, 44);
     text-align: end;
-    margin-top: 240px;
+    margin-top: 270px;
 }
 .asidetext {
     font-family: "Lilita One";
@@ -102,14 +103,11 @@ svg {
 }
 .imgholster {
     height: 100%;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    margin-bottom: 110px;
 }
 .titlecard {
     height: auto;
-    width: 90%;    
+    width: 90%; 
+    margin-top: 200px;
 }
 /*this is for the button decoration*/
 .navtext {
@@ -142,6 +140,14 @@ svg {
     .homeaside {
         justify-content: end;
     }
-   
+  }
+  @media only screen and (max-width: 1300px) {
+    .textcontainer {
+        margin-top: 200px;
+    }
+    .titlecard {
+        margin-top: 100px;
+    }
+    
   }
 
