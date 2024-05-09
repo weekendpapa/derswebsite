@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-direction: row;
     height: 99vh;
+    border-style: solid;
 }
 /*for everything in the aside coloum*/
 .homeaside {
@@ -124,6 +125,8 @@ svg {
     }
     .papaflex {
         flex-direction: column-reverse;
+        width: 153vw;
+        height: 155vh;
     }
     .nametext {
         font-size: 100px;
@@ -136,5 +139,9 @@ svg {
         margin-bottom: 0px;
         justify-content: center;
     }
+    .homeaside {
+        justify-content: end;
+    }
+   
   }
 
