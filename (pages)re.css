@@ -41,6 +41,8 @@ body {
 .resumeimage { /*This one is just the resume page*/
     height: 650px;
 }
+.bigresumeimage{
+}
 .multimage { /*This is all pages with mulitple images that use rows and rowbox*/
     max-width: 30%;
     height: auto;
