@@ -7,8 +7,8 @@ body {
     margin-bottom: 0%;
 }
 .bodytag {
-    background-color: rgb(255, 255, 69);
-    background-image: url(https://storage.googleapis.com/derswebsitebucket/Backgrounds/websitebackgroundred%3Ayellow%2Bmore.png);
+    background-color: rgb(23, 38, 255);
+    /*background-image: url(https://storage.googleapis.com/derswebsitebucket/Backgrounds/websitebackgroundred%3Ayellow%2Bmore.png);*/
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,6 +42,7 @@ body {
     height: 650px;
 }
 .bigresumeimage{
+    height: auto;
 }
 .multimage { /*This is all pages with mulitple images that use rows and rowbox*/
     max-width: 30%;
@@ -74,7 +75,7 @@ body {
     font-size: 150px;
     font-family: "Lilita One";
     align-items: flex-end;
-    text-shadow: 4px 4px purple;
+    text-shadow: 4px 4px rgb(0, 0, 123);
 }
 .bottomtextbox {
     display: flex;
@@ -106,7 +107,7 @@ body {
     cursor: grab;
 }
 svg {
-    fill: lightblue;
+    fill: rgb(0, 0, 123);
 }
 /*this is for the navbar*/
 .sidebar {
@@ -118,9 +119,9 @@ svg {
     height: 300px;
     width: 490px;
     display: none;
-    background-color: rgb(255, 61, 61);
+    background-color: rgb(212, 215, 255);
     border-style: solid;
-    border-color: rgb(0, 255, 145);
+    border-color: rgb(0, 0, 123);
     z-index: 10;
 }
 .sidebar li{ /*not entirerly sure why i need this...but it doesnt' work without it*/
@@ -161,20 +162,20 @@ svg {
 }
 /* Font Decoration */
 .bottomtextbox a {
-    color: black;
+    color: rgb(212, 215, 255);
     text-decoration: none;
     transition: color 0.5s;
     cursor: help;
 }
 .bottomtextbox a:hover {
-    color: lightblue;
+    color: rgb(0, 0, 123);
 }
 .navtext {
-    color: rgb(255, 255, 69);
+    color: rgb(23, 38, 255);
     text-decoration: none;
     transition: color 0.5s;
 }
-.navtext:hover { color:lightblue; 
+.navtext:hover { color:rgb(255, 44, 44); 
 }
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */

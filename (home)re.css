@@ -7,8 +7,8 @@ body {
     margin-bottom: 0%;
 }
 .mainbody {
-    background-color: rgb(255, 255, 69);
-    background-image: url(https://storage.googleapis.com/derswebsitebucket/Backgrounds/websitebackgroundred%3Ayellow%2Bmore.png);
+    background-color: rgb(23, 38, 255);
+    /*background-image: url(https://storage.googleapis.com/derswebsitebucket/Backgrounds/websitebackgroundred%3Ayellow%2Bmore.png);*/
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,11 +38,11 @@ body {
 .asidetext {
     font-family: "Lilita One";
     font-size: 30px;
-    text-shadow: -2px 2px purple;
+    text-shadow: -2px 2px rgb(0, 0, 123);
 }
 .nametext {
     font-size: 140px;
-    text-shadow: -4px 4px purple;
+    text-shadow: -4px 4px rgb(0, 0, 123);
 }
 /*this is for the button*/
 .buttonholder {
@@ -63,7 +63,7 @@ body {
     cursor: grab;
 }
 svg {
-    fill: lightblue;
+    fill: rgb(0, 0, 123);
 }
 /*this is for the navbar*/
 .sidebar {
@@ -75,9 +75,9 @@ svg {
     height: 300px;
     width: 690px;
     display: none;
-    background-color: rgb(255, 61, 61);
+    background-color: rgb(212, 215, 255);
     border-style: solid;
-    border-color: rgb(0, 255, 145);
+    border-color: rgb(0, 0, 123);
 }
 .sidebar li{ /*not entirerly sure why i need this...but it doesnt' work without it*/
     display: inline-block;
@@ -85,7 +85,7 @@ svg {
     padding: 20px;
 }
 .navtext {
-    color: rgb(255, 255, 69);
+    color: rgb(23, 38, 255);
     text-decoration: none;
     font-family: "Lilita One";
 }
@@ -114,7 +114,7 @@ svg {
     text-decoration: none;
     transition: color 0.5s;
 }
-.navtext:hover { color:lightblue; 
+.navtext:hover { color:rgb(255, 44, 44); 
 }
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
