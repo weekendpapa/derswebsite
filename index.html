@@ -13,6 +13,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
 <!--java stuff-->
         <script type="text/javascript" src="java.js"></script>
+        <!--model viewer-->
+        <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
     </head>
   <!-- Visible content for the page-->
   <!--main page text below-->
@@ -47,8 +49,29 @@
         </nav>
     <!-- stuff for the side coloum with the picture-->
         <main class="homemain">
-            <div class="imgholster">
-                <img class="titlecard" src="https://storage.googleapis.com/derswebsitebucket/homeimage/derscard2.png" alt="Anders Law">
+            <div class="homemodel">
+                <model-viewer id="orbit-demo" interpolation-decay="200" src="3d assets/card.glb" 
+                camera-controls 
+                min-field-of-view='50deg'
+                max-field-of-view='50deg'
+                alt="A 3D model of a card"></model-viewer>
+                    <script>
+                    (() => {
+                    const modelViewer = document.querySelector('#orbit-demo');
+                    const orbitCycle = [
+                        '45deg 55deg 4m',
+                        '-60deg 110deg 2m',
+                        modelViewer.cameraOrbit
+                    ];
+                    
+                    setInterval(() => {
+                        const currentOrbitIndex = orbitCycle.indexOf(modelViewer.cameraOrbit);
+                        modelViewer.cameraOrbit =
+                            orbitCycle[(currentOrbitIndex + 1) % orbitCycle.length];
+                    }, 3000);
+                    })();
+                    </script>
+                
             </div>
         </main>
     </div>

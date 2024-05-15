@@ -58,6 +58,7 @@ body {
     color: rgb(0, 0, 123);
     align-self: flex-start;
     margin-left: 20px;
+    text-shadow: 1px 1px rgb(212, 215, 255);
 }
 /*box on the right*/
 .bigboxright {
@@ -142,11 +143,11 @@ svg {
 /*logos on contact pages*/
 .logos {
     font-size: 100px;
-    color:rgb(0, 0, 123);
+    color:rgb(255, 44, 44);
     transition: color 0.5s;
 }
 .logos:hover {
-    color: rgb(255, 44, 44);
+    color: rgb(0, 0, 123);
 }
 .logogroup {
     display: flex;
