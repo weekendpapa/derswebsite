@@ -85,6 +85,20 @@ body {
     font-size: 50px;
     font-family: "Lilita One";
 }
+@keyframes donutspin {
+    0% { transform: rotate(0deg); }
+    20% { transform: rotate(340deg); }
+    100% { transform: rotate(390deg); }
+}
+.bottomtextboxdonut {
+    display: flex;
+    flex-direction: column;
+    color: pink;
+    font-size: 50px;
+    font-family: "Lilita One";
+    animation : donutspin 3s linear infinite;
+    margin-bottom: 100px;
+}
 /*this is for the button*/
 .buttonholder {
     display: flex;
