@@ -7,6 +7,11 @@ body {
     background-color: rgb(85, 45, 79);
 }
 
+@font-face {
+    font-family: 'spikeless';
+    src: url(fonts/Spikeless.ttf);
+}
+
 /*header*/
 .homeheader {
     border: seagreen;
@@ -15,8 +20,6 @@ body {
 }
 /*everything in first box*/
 .homeflex {
-    border-color: aqua;
-    border-style: solid;
     flex: 1;
     height: 100vh;
     display: flex;
@@ -26,19 +29,21 @@ body {
 }
 .homeflextext {
     position: fixed;
-    color: red;
+    color: rgb(164, 31, 31);
+    font-family: "spikeless";
+    font-size: 10vw;
+    z-index: 2;
 }
 
 .homefleximage {
     width: auto;
     height: 45%;
     align-self: self-end;
+    z-index: 1;
 }
 
 /*everything in next flexbox*/
 .homeflexbelow {
-    border-color: pink;
-    border-style: solid;
     flex: 1;
     height: 180vh;
     display: flex;
@@ -50,6 +55,7 @@ body {
     align-self: flex-start;
     margin-top: 10%;
     margin-left: 10%;
+    z-index: 3;
 }
 .homeimage2 {
     width: 30%;
@@ -57,12 +63,11 @@ body {
     align-self:baseline;
     margin-top: 50%;
     margin-left: 30%;
+    z-index: 1;
 }
 
 /*everything in next flexbox*/
 .homeflexbelower {
-    border-color: pink;
-    border-style: solid;
     flex: 1;
     height: 180vh;
     display: flex;
@@ -73,26 +78,28 @@ body {
     height: auto;
     align-self: baseline;
     margin-left: 20%;
+    z-index: 3;
 }
 .homeimage4 {
     width: 23%;
     height: auto;
     align-self: center;
     margin-top: 30%;
+    z-index: 1;
 }
 
 /*everything in last flexbox*/
 .homeflexbelowest {
     display: flex;
     flex: 1;
-    border-style: solid;
     align-items: center;
     justify-content: center;
     height: 25vh;
 }
 
 .homeinfo {
-    color:red;
+    color:rgb(164, 31, 31);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* Smartphones (portrait) ----------- */
