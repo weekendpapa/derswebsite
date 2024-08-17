@@ -1,0 +1,113 @@
+/*body style*/
+body {
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    background-color: rgb(85, 45, 79);
+}
+
+/*header*/
+.homeheader {
+    border: seagreen;
+    border-style: solid;
+    position: fixed;
+}
+/*everything in first box*/
+.homeflex {
+    border-color: aqua;
+    border-style: solid;
+    flex: 1;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.homeflextext {
+    position: fixed;
+    color: red;
+}
+
+.homefleximage {
+    width: auto;
+    height: 45%;
+    align-self: self-end;
+}
+
+/*everything in next flexbox*/
+.homeflexbelow {
+    border-color: pink;
+    border-style: solid;
+    flex: 1;
+    height: 180vh;
+    display: flex;
+}
+
+.homeimage {
+    width: 25%;
+    height: auto;
+    align-self: flex-start;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.homeimage2 {
+    width: 30%;
+    height: auto;
+    align-self:baseline;
+    margin-top: 50%;
+    margin-left: 30%;
+}
+
+/*everything in next flexbox*/
+.homeflexbelower {
+    border-color: pink;
+    border-style: solid;
+    flex: 1;
+    height: 180vh;
+    display: flex;
+}
+
+.homeimage3 {
+    width: 28%;
+    height: auto;
+    align-self: baseline;
+    margin-left: 20%;
+}
+.homeimage4 {
+    width: 23%;
+    height: auto;
+    align-self: center;
+    margin-top: 30%;
+}
+
+/*everything in last flexbox*/
+.homeflexbelowest {
+    display: flex;
+    flex: 1;
+    border-style: solid;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+}
+
+.homeinfo {
+    color:red;
+}
+
+/* Smartphones (portrait) ----------- */
+@media (max-width : 600px) { 
+    .homeflexbelow {
+        height: 100vh;
+    }
+    .homeflexbelower {
+        height: 100vh;
+    }
+
+}
+
+
+
+
+
+
