@@ -20,7 +20,22 @@
   <!-- Visible content for the page-->
   <!--main page text below-->
   <body>
-    <header class="homeheader" >Trampled Flowers Logo</header>
+    <header class="nav" >
+            <button class="navbutton" onclick=showsidebar()>
+                <img class="navcrest" src="https://storage.googleapis.com/derswebsitebucket/Trampled%20Flowers/Crest/TFcrest%20copy%20vtrans.png"/>
+            </button>
+
+        <nav class="sidebarnav">
+            <ul class="sidebar">
+                <li><a class="navtext" href="re(sume).html">Resume</a></li>
+                <li><a class="navtext" href="(re)txmi.html">TXMI Capstone</a></li>
+                <li><a class="navtext" href="ka(re)do.html">Lectra Kaledo</a></li>
+                <li onclick=hidesidebar()><a class="navclose" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            </ul>
+        </nav>
+
+    </header>
+
     <div class="homeflex">
         <div class="homeflextext"> <span>Trampled Flowers</span> </div>
         <img class="homefleximage" src="https://storage.googleapis.com/derswebsitebucket/Trampled%20Flowers/sydney%20shots%20v1/DSC_5749.jpg"/>
@@ -35,8 +50,10 @@
         <img class="homeimage3" src="https://storage.googleapis.com/derswebsitebucket/Trampled%20Flowers/sydney%20shots%20v1/DSC_5843.jpg"/>
         <img class="homeimage4" src="https://storage.googleapis.com/derswebsitebucket/Trampled%20Flowers/Best%20JPGS%20(Anders)/P7180443.jpg"/>
     </div>
+
     <div class="homeflexbelowest">
-        <span class="homeinfo" >Click on the Crest or Any of the Photos to Begin</span>
+        <span class="homeinfo" >Click on the Crest to Begin</span>
     </div>
+
     </body>
 </html>

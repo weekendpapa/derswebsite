@@ -13,11 +13,51 @@ body {
 }
 
 /*header*/
-.homeheader {
-    border: seagreen;
-    border-style: solid;
+.nav {
     position: fixed;
+    display: flex;
+    z-index: 4;
 }
+.navbutton {
+    background: none;
+	color: inherit;
+	border: none;
+    width: 20%;
+    z-index: 4;
+}
+
+.navcrest{
+    width: 50%;
+    height: auto;
+    z-index: 4;
+}
+.sidebarnav {
+    width: 100vw;
+}
+
+.sidebar {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(32, 84, 136);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2vw;
+  }
 /*everything in first box*/
 .homeflex {
     flex: 1;
