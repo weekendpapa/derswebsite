@@ -56,8 +56,12 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.7vw;
+    transition: color 0.5s;
   }
+.navtext:hover { color:rgb(21, 13, 128); 
+}
 /*everything in first box*/
 .homeflex {
     flex: 1;
