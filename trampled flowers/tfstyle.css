@@ -154,7 +154,13 @@ ul {
     .homeflexbelower {
         height: 100vh;
     }
-
+    .navcrest{
+        width: 120%;
+        height: auto;
+    }
+    li a {
+        font-size: 3vw;
+    }
 }
 
 
