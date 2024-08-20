@@ -83,6 +83,13 @@ ul {
 .navtext:hover { color:rgb(21, 13, 128); 
 }
 
+.quotebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
   @media screen and (max-width: 800px) {
     .column {
       -ms-flex: 50%;
