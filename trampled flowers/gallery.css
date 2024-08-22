@@ -8,6 +8,11 @@
     font-family: Arial;
     background-color: rgb(85, 45, 79);
   }
+
+  @font-face {
+    font-family: 'spikeless';
+    src: url(Spikeless.ttf);
+}
   
   .row {
     display: -ms-flexbox; 
@@ -88,6 +93,19 @@ ul {
     justify-content: center;
     align-items: center;
     height: 30vh;
+}
+
+.pictextholder {
+  color: rgb(164, 31, 31);
+  text-align: center;
+  font-size: 5vh;
+  font-family: 'spikeless';
+}
+.pictextholdersub {
+  color: rgb(21, 13, 128);
+  text-align: center;
+  font-size: 3vh;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
   @media screen and (max-width: 800px) {
