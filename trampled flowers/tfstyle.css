@@ -30,6 +30,12 @@ body {
     width: 50%;
     height: auto;
     z-index: 4;
+    transition: 1s;
+}
+.navcrest:hover {
+    width: 60%;
+    height: auto;
+    cursor: pointer;
 }
 .sidebarnav {
     width: 100vw;
