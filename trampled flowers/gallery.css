@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial;
-    background-color: rgb(85, 45, 79);
+    background-color: rgb(79, 45, 73);
   }
 
   @font-face {
@@ -96,7 +96,7 @@ ul {
   
   li a {
     display: block;
-    color: rgb(32, 84, 136);
+    color: rgb(66, 102, 139);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -104,7 +104,7 @@ ul {
     font-size: 1.7vw;
     transition: color 0.5s;
   }
-.navtext:hover { color:rgb(21, 13, 128); 
+.navtext:hover { color:rgb(47, 45, 77); 
 }
 
 .quotebox {
@@ -113,22 +113,38 @@ ul {
     align-items: center;
     height: 30vh;
     width: 100%;
+    color: rgb(147, 76, 88);
+}
+.momheader {
+    display: flex;
+    justify-content: end;
+    align-items:end;
+    height: 20vh;
+    width: 100%;
+    padding-right: 50px;
+    text-align: right;
+    font-size: 3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(86, 50, 80);
+    transition: 2s;
+}
+.momheader:hover { color: rgb(147, 76, 88);; 
 }
 
 .pictextholder {
-  color: rgb(164, 31, 31);
+  color: rgb(147, 76, 88);
   text-align: center;
   font-size: 5vh;
   font-family: 'spikeless';
 }
 .pictextholdersub {
-  color: rgb(21, 13, 128);
+  color: rgb(66, 102, 139);
   text-align: center;
   font-size: 3vh;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 .promotextholder {
-  color: rgb(164, 31, 31);
+  color: rgb(147, 76, 88);
   text-align: center;
   font-size: 5vh;
   font-family: 'spikeless';
