@@ -131,6 +131,22 @@ ul {
 .momheader:hover { color: rgb(147, 76, 88);; 
 }
 
+.creditheader {
+  display: flex;
+  justify-content: center;
+  align-items:end;
+  height: 20vh;
+  width: 100%;
+  padding-right: 50px;
+  text-align: right;
+  font-size: 5vw;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(86, 50, 80);
+  transition: 2s;
+}
+.creditheader:hover { color: rgb(147, 76, 88);; 
+}
+
 .pictextholder {
   color: rgb(147, 76, 88);
   text-align: center;
@@ -149,6 +165,32 @@ ul {
   font-size: 5vh;
   font-family: 'spikeless';
   border-style: solid;
+}
+
+.bigcredit {
+  flex: 1;
+  min-height: 99vh;
+  border-style: solid;
+  display: flex;
+}
+.littlecredit {
+  border-style: solid;
+  color: pink;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.babycredit {
+  border-style: solid;
+  border-color: aqua;
+  display: flex;
+  flex-grow: 1;
+}
+.babyercredit {
+  border-style: solid;
+  border-color: red;
+  display: flex;
+  flex-grow: 1;
 }
 
   @media screen and (max-width: 800px) {
