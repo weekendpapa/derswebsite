@@ -53,6 +53,8 @@
     border-color: greenyellow;
     height: 100%;
     width: 100%;
+    align-items: center;
+    justify-content: center;
   }
   .procolumn {
     -ms-flex: 33%; 
