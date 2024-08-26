@@ -27,6 +27,33 @@
     max-width: 25%;
     padding: 0 4px;
   }
+  .credcolumn {
+    -ms-flex: 50%; 
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+    border-style: solid;
+  }
+  .credinside {
+    display: flex;
+    border-style: solid;
+    border-color: pink;
+    height: 50%;
+    flex-direction: column;
+  }
+  
+  .credpic {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .credtext {
+    display: flex;
+    border-style: solid;
+    border-color: greenyellow;
+    height: 100%;
+    width: 100%;
+  }
   .procolumn {
     -ms-flex: 33%; 
     flex: 33%;
@@ -139,7 +166,7 @@ ul {
   width: 100%;
   padding-right: 50px;
   text-align: right;
-  font-size: 5vw;
+  font-size: 6vw;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: rgb(86, 50, 80);
   transition: 2s;
@@ -167,32 +194,6 @@ ul {
   border-style: solid;
 }
 
-.bigcredit {
-  flex: 1;
-  min-height: 99vh;
-  border-style: solid;
-  display: flex;
-}
-.littlecredit {
-  border-style: solid;
-  color: pink;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-}
-.babycredit {
-  border-style: solid;
-  border-color: aqua;
-  display: flex;
-  flex-grow: 1;
-}
-.babyercredit {
-  border-style: solid;
-  border-color: red;
-  display: flex;
-  flex-grow: 1;
-}
-
   @media screen and (max-width: 800px) {
     .column {
       -ms-flex: 50%;
@@ -207,11 +208,28 @@ ul {
       flex: 100%;
       max-width: 100%;
     }
+    .credcolumn {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+    .procolumn {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
     .navcrest{
         width: 120%;
         height: auto;
     }
     li a {
         font-size: 3vw;
+    }
+    .creditheader{
+      font-size: 10vw;
+    }
+    .littlecredit {
+      flex-direction: column;
+      max-width: 100%;
     }
   }
