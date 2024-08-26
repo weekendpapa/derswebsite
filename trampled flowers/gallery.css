@@ -55,6 +55,7 @@
     width: 100%;
     align-items: center;
     justify-content: center;
+    font-size: 10vw;
   }
   .procolumn {
     -ms-flex: 33%; 
