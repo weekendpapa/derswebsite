@@ -28,9 +28,9 @@
     padding: 0 4px;
   }
   .credcolumn {
-    -ms-flex: 50%; 
-    flex: 50%;
-    max-width: 50%;
+    -ms-flex: 33%; 
+    flex: 33%;
+    max-width: 33%;
     padding: 0 4px;
     border-style: solid;
   }
@@ -55,7 +55,15 @@
     width: 100%;
     align-items: center;
     justify-content: center;
-    font-size: 10vw;
+    font-size: 5vw;
+  }
+  .subcredheader{
+    font-family: 'spikeless';
+  }
+  .subcredsub{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5vw;
+    text-align: center;
   }
   .procolumn {
     -ms-flex: 33%; 
@@ -195,6 +203,21 @@ ul {
   font-size: 5vh;
   font-family: 'spikeless';
   border-style: solid;
+}
+
+.logos {
+  font-size: 100px;
+  color: rgb(147, 76, 88);
+  transition: color 0.5s;
+}
+.logos:hover {
+  color: rgb(66, 102, 139);
+}
+.logogroup {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
 }
 
   @media screen and (max-width: 800px) {
