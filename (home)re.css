@@ -1,3 +1,7 @@
+.mainbody {
+    overflow-x: hidden;
+}
+
 /*NavBAR*/
 .topnav {
     background-color: #000000;
