@@ -1,6 +1,13 @@
 body {
     background-color: black;
   }
+  .mainbody2 {
+    background-image: url(https://storage.googleapis.com/derswebsitebucket/Backgrounds/lexi.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+  }
   /*NavBAR*/
   .topnav {
       background-color: #000000;
@@ -157,6 +164,12 @@ body {
         background-size: cover;
         z-index: 900;
     }
+    .backdiv3 {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        z-index: 900;
+    }
 
     .leftdiv {
         width: 50%;
@@ -176,9 +189,40 @@ body {
         z-index: 955;
     }
 
+    .leftdiv2 {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 901;
+        gap: 30px;
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+    .rightdiv2 {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 955;
+    }
+
     .resumeholder {
         height: 80vh;
         width: auto;
+    }
+
+    .imgholder {
+        height: 30vh;
+        width: auto;
+    }
+    .imgtitle {
+        font-size: 5vw;
+        color: white;
+        width: 100%;
+        text-align: center;
     }
 
     .downloadbutton {
@@ -205,5 +249,12 @@ body {
         }
         .downloadbutton {
             font-size: 5vw;
+        }
+        .rightdiv2 {
+            display: none;
+        }
+        .leftdiv2 {
+            width: 100%;
+            align-items:center;
         }
     }
