@@ -138,6 +138,7 @@ body {
     font-weight: 100;
     font-family: 'Open Sans', sans-serif;
 }
+
 .parallax{
     background: url(https://storage.googleapis.com/derswebsitebucket/Backgrounds/jacketpapa.jpg) repeat fixed 100%;
     background-size: cover;
@@ -159,13 +160,16 @@ body {
 }
 
 h3{
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 80px;
+  margin-bottom: 80px;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
+}
+h3:hover{
+  cursor: default;
 }
 
 .buttdiv {
@@ -190,6 +194,9 @@ h1{
     font-size: 160px;
     text-align: center;
     opacity: 0;
+}
+h1:hover{
+  cursor: default;
 }
 .logopageholder {
   width: 90%;

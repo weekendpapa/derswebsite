@@ -8,6 +8,13 @@ body {
     background-size: cover;
     overflow: auto;
   }
+  .mainbody3 {
+    background-image: url(https://storage.googleapis.com/derswebsitebucket/Backgrounds/skate.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+  }
   /*NavBAR*/
   .topnav {
       background-color: #000000;
@@ -199,6 +206,7 @@ body {
         gap: 30px;
         flex-wrap: wrap;
         margin-top: 100px;
+        padding-right: min(50px, 5%);
     }
     .rightdiv2 {
         width: 30%;
@@ -213,16 +221,46 @@ body {
         height: 80vh;
         width: auto;
     }
+    .diplomaholder {
+      height: 60vh;
+      width: auto;
+  }
 
     .imgholder {
         height: 30vh;
         width: auto;
     }
+    .imgholder2 {
+      height: 40vh;
+      width: auto;
+  }
     .imgtitle {
         font-size: 5vw;
         color: white;
         width: 100%;
         text-align: center;
+    }
+    .imgtitle2 {
+      font-size: 2vw;
+        color: white;
+        width: 100%;
+        text-align: center;
+    }
+    .imgtitle2:hover {
+        cursor: default;
+    }
+    .imgtitlegone {
+      font-size: 2vw;
+        color: white;
+        width: 100%;
+        text-align: center;
+        opacity: 0;
+    }
+    .imgtitlegone:hover {
+        cursor: default;
+    }
+    .imgtitle:hover {
+        cursor: default;
     }
 
     .downloadbutton {
@@ -257,4 +295,11 @@ body {
             width: 100%;
             align-items:center;
         }
+        .diplomaholder {
+          height: 30vh;
+          width: auto;
+      }
+      .leftdiv2{
+        padding-right: 0px;
+      }
     }
