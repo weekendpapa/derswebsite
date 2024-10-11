@@ -15,6 +15,13 @@ body {
     background-size: cover;
     overflow: auto;
   }
+  .mainbody4 {
+    background-image: url(https://storage.googleapis.com/derswebsitebucket/Backgrounds/cowboy.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+  }
   /*NavBAR*/
   .topnav {
       background-color: #000000;
@@ -280,6 +287,15 @@ body {
     }
     .downloadbutton:hover {
         color: rgb(255, 159, 197);
+    }
+
+    .scrollcontainer {
+      background-color: #000000;
+      overflow: auto;
+      white-space: nowrap;
+      padding: 10px;
+      margin-left: 60px;
+      margin-right: 60px;
     }
 
     @media screen and (max-width: 600px) {
