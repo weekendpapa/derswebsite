@@ -234,6 +234,14 @@ body {
       height: 40vh;
       width: auto;
   }
+  .imgholder3 {
+    height: 40vh;
+    width: auto;
+}
+  .imgholder9 {
+    height: 20vh;
+    width: auto;
+}
     .imgtitle {
         font-size: 5vw;
         color: white;
@@ -301,5 +309,11 @@ body {
       }
       .leftdiv2{
         padding-right: 0px;
+      }
+      .imgholder3{
+        height: 30vh;
+      }
+      .imgholder9{
+        height: 8vh;
       }
     }
