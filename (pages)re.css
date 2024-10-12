@@ -305,6 +305,10 @@ body {
       margin-right: 60px;
     }
 
+    .commenttext {
+      color: white;
+    }
+
     @media screen and (max-width: 600px) {
         .rightdiv {
             display: none;
