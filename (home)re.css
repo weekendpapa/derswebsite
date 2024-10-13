@@ -188,6 +188,10 @@ h3:hover{
   color: white;
   font-size: 20px;
   text-decoration: none;
+  transition: .7s;
+}
+.bttbutt:hover{
+  color: rgb(255, 159, 197);
 }
 
 h1{
