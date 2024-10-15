@@ -190,6 +190,19 @@ h3:hover{
   text-decoration: none;
   transition: .7s;
 }
+.bttbutter {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  transition: .7s;
+}
+.bttbutter:hover{
+  color: rgb(255, 159, 197);
+}
 .bttbutt:hover{
   color: rgb(255, 159, 197);
 }
