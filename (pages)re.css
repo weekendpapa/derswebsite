@@ -339,6 +339,11 @@ body {
       color: white;
     }
 
+    .p5er {
+      width: 60%;
+      height: 600px;
+    }
+
     @media screen and (max-width: 600px) {
         .rightdiv {
             display: none;
